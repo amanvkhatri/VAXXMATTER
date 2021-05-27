@@ -1,0 +1,260 @@
+body
+{
+    background-color: rgba(213, 221, 218, 0.521);
+    
+    
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.vaxxmatter-logo-login{
+    position: absolute;
+    top: 4%;
+    text-decoration: none;
+    font-size: 4.5vh;
+    
+    box-shadow: 0px 1px #9b9b9b;
+    letter-spacing: 4px;
+   
+    
+    
+    
+
+}   
+.vaxxmatter-logo-login > a{
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(98, 89, 255), rgb(104, 77, 255));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+   
+}
+.male-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+.male-flex > h4{
+    margin-left: 5%;
+    font-weight: lighter;
+    
+}
+.female-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+.female-flex-heading{
+    margin-left: 5%;
+    font-weight: lighter;
+}
+.login-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    
+}
+.form-container
+{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 192, 192);
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2); */
+              display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;   
+    height: 410px;
+    width: 320px;
+    box-shadow:  14px 14px 29px #9b9b9b,
+             -0px -0px 0px #ffffff;
+}
+.form-container button{
+    border: none;
+    background-color: rgb(240, 206, 94);
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 200px;
+    
+}
+.form
+{
+    padding: 0%;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;    
+    }
+
+    @media screen and (max-width: 850px) {
+        .svg {
+            display: none;
+            width: 0%;
+            height: 0%;
+        }
+    }
+    .form input{
+        text-decoration: none;
+        line-height: 2.5;
+        border: 0.5px solid rgb(228, 215, 215);    
+    background-color: rgb(248, 248, 248);
+        text-decoration-style: none;
+        border-radius: 3px;
+        width: 200px;
+    }
+    .form div{
+        border-bottom: 0.1px solid grey;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        width: 230px;
+        overflow: hidden;
+    }
+    .form button{
+            border: none;
+            background-color: rgb(240, 206, 94);
+            height: 30px;
+            width: 180px;
+            border-radius: 5px;
+            text-decoration: none;
+            width: 200px;
+    }
+    
+
+/* Register form css */
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.register{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #e0e0e0;
+    
+    /* display: none; */
+    
+
+}
+.form-control{
+    padding: 1%;
+    padding-left: 4%;
+}
+.register_form{
+    /* background-color: chartreuse; */
+    min-width: 60px;
+    max-width: 420px;
+    font-family: "Poppins", sans-serif;
+    border: 0.5px solid rgb(228, 215, 215);
+    background: #e0e0e0;
+    box-shadow:  14px 14px 29px #9b9b9b,
+             -14px -14px 29px #ffffff;
+              padding: 5px 5px;
+              
+}
+
+.header h1,h3{
+    
+    border-bottom: 0.5px solid rgb(228, 215, 215);
+    padding: 5px 5px;
+}   
+.container
+{
+ display: grid;
+ padding: 15px;
+ grid-template-columns: auto auto;
+ grid-row-gap: 20px;
+ grid-column-gap: 20px;
+}
+.email
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.password   
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.dob 
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.male{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.female
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.container input{
+    line-height: 2.3;
+    border: 0.5px solid rgb(228, 215, 215);    
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    padding: 5px;
+}
+.container span{
+    line-height: 0.3;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.signup
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid silver;
+}
+.signup button{
+    line-height: 2.5;
+    min-width: 195px;
+    border: 0.5px solid rgb(228, 215, 215);
+    background-color: rgb(218, 208, 208);
+    
+}
+
+
+.alreadyuser{
+
+    margin-top: 40px;
+    min-width: 397px;
+    line-height: 3;   
+    font-family: "Poppins", sans-serif;
+    /* border: 0.5px solid rgb(228, 215, 215); */
+    background-color: rgb(218, 208, 208);   
+    box-shadow:  14px 14px 29px #9b9b9b,
+             -14px -14px 29px #ffffff;
+              padding: 1px 2px;
+              border-radius: 0px;
+     border: 0.5px solid rgb(228, 215, 215);
+     
+    font: bold;
+    font-size: larger;
+}

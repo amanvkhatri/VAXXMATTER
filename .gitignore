@@ -39,6 +39,9 @@ build/Release
 
 # Dependency directories
 node_modules/
+Client/node_modules/
+Server/node_modules/
+Server/.env
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -49,6 +52,7 @@ typings/
 
 # Optional npm cache directory
 .npm
+Server/.env
 
 # Optional eslint cache
 .eslintcache

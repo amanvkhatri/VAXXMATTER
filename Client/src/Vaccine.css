@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+  }
+  
+  .nav {
+    min-height: 11vh;
+    width: 100%;
+    background-color: aqua;
+  }
+  
+  .vac-info {
+    min-height: 89vh;
+    display: flex;
+  justify-content: space-around;
+    width: 100%;
+    padding: 1.5%;
+    margin-top: 12vh;
+  }
+  .imp-links{
+      border: 1px solid black;
+      min-width: 20vw;
+  }
+  .vac-info-container{
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+  }
+  .vac-info div {
+    max-width: 70vw;
+  }
+  
+  #more {
+    display: none;
+  }
+  #more1{
+      display: none;
+  }
+  
+  .covishield {
+    padding: 2%;
+    box-shadow:  5px 5px 9px #c1c1c1,
+             -5px -5px 9px #ffffff;
+    margin-bottom: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .covaxin {
+    padding: 2%;
+    box-shadow:  5px 5px 9px #c1c1c1,
+             -5px -5px 9px #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  
+  }
+  .covaxin > h2{
+    text-align: center;
+  }
+.heading-covi{
+  text-align: center;
+}
+  .covaxin > button{
+  align-self: center;
+  width: 15%;
+  height: 4vh;
+  box-shadow:  4px 4px 7px #696969,
+             -4px -4px 7px #ffffff;
+             border-radius: 5px;
+  border: none;
+  }
+  .covaxin > button:hover{
+     box-shadow:  4px 4px 7px #383838,
+             -4px -4px 7px #ffffff;
+             border: none;
+  }
+  .covishield > button{
+  align-self: center;
+  width: 15%;
+  height: 4vh;
+  box-shadow:  4px 4px 7px #696969,
+             -4px -4px 7px #ffffff;
+             border-radius: 5px;
+  border: none;
+  }
+  .covishield > button:hover{
+     box-shadow:  4px 4px 7px #383838,
+             -4px -4px 7px #ffffff;
+             border: none;
+  }
+  
+  .vac-info h2,
+  p {
+    margin-bottom: 2%;
+  }
+  .vac-info  h3{
+      margin-bottom: 2%;
+      padding-top: 2%;
+      border-top: 1px solid black;
+  }
+  
+  .vac-info ul {
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  
